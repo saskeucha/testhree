@@ -1,0 +1,35 @@
+.wrapper{
+	border: 2px solid #000;
+	height: 500px;
+	width: 100%;
+}
+.items-row{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.img1 {
+background-image: url('img/img1.jpg');
+background-repeat: no-repeat;
+height: 100%;
+width: 150px;
+}
+.img2 {
+background-image: url('img/img2.jpg');
+background-repeat: no-repeat;
+height: 100%;
+width: 150px;
+}
+.item{
+	margin: 2px;
+	border: 2px solid grey;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	flex: 1 1 20%;
+	transition: flex 0.4 ease;
+}
+.item:hover{
+	flex: 0.01 0.01 70%;
+}
